@@ -1,4 +1,7 @@
-# log-fs-writes [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# log-fs-writes 
+
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+
 > Logs details any time any module uses fs.* to write to the filesystem
 
 Built to help debugging when you're trying to figure out who/what/when/where/why something is writing to your disk.
@@ -40,9 +43,9 @@ MIT © [Nathan Friedly](http://nfriedly.com/)
 
 [npm-image]: https://badge.fury.io/js/log-fs-writes.svg
 [npm-url]: https://npmjs.org/package/log-fs-writes
-[travis-image]: https://travis-ci.org/nfriedly/log-fs-writes.svg?branch=master
-[travis-url]: https://travis-ci.org/nfriedly/log-fs-writes
-[daviddm-image]: https://david-dm.org/nfriedly/log-fs-writes.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/nfriedly/log-fs-writes
-[coveralls-image]: https://coveralls.io/repos/nfriedly/log-fs-writes/badge.svg
-[coveralls-url]: https://coveralls.io/r/nfriedly/log-fs-writes
+[travis-image]: https://api.travis-ci.org/nfriedly/node-log-fs-writes.svg?branch=master
+[travis-url]: https://travis-ci.org/nfriedly/node-log-fs-writes
+[daviddm-image]: https://david-dm.org/nfriedly/node-log-fs-writes.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/nfriedly/node-log-fs-writes
+[coveralls-image]: https://coveralls.io/repos/nfriedly/node-log-fs-writes/badge.svg
+[coveralls-url]: https://coveralls.io/r/nfriedly/node-log-fs-writes
