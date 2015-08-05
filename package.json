@@ -1,6 +1,6 @@
 {
   "name": "log-fs-writes",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Logs details any time any module uses fs.* to write to the filesystem",
   "homepage": "",
   "repository": "nfriedly/log-fs-writes",
