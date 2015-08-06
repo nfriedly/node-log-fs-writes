@@ -1,9 +1,9 @@
 {
   "name": "log-fs-writes",
   "version": "1.0.0",
-  "description": "Logs details any time any module uses fs.* to write to the filesystem",
+  "description": "Logs details any time any code in your node.js app (including dependencies) uses `fs.*` to write to the filesystem.",
   "homepage": "",
-  "repository": "nfriedly/log-fs-writes",
+  "repository": "nfriedly/node-log-fs-writes",
   "author": {
     "name": "Nathan Friedly",
     "email": "",

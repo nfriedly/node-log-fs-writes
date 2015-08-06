@@ -2,7 +2,7 @@
 
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 
-> Logs details any time any module uses fs.* to write to the filesystem
+Logs details any time any code in your node.js app (including dependencies) uses `fs.*` to write to the filesystem.
 
 Built to help debugging when you're trying to figure out who/what/when/where/why something is writing to your disk.
 
@@ -15,13 +15,13 @@ $ npm install --save-dev log-fs-writes
 
 ## Usage
 
-Include this at the top of your main app.js/server/js/whatever file
+Include this at the top of your main app.js/server.js/whatever file
 
 ```js
 require('log-fs-writes');
 ```
 
-Any time a `fs.*` write method is called, you'll get console output similar to:
+Any time a `fs.*` write method is called, you'll get console output similar to this:
 
 ```
 fs.writeFileSync(myfile.txt, file contents)
